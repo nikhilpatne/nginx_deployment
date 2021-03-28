@@ -1,5 +1,5 @@
 ---
-- hosts: 13.66.161.42
+- hosts: all
   become: yes
   tasks:
     - name: Installs nginx web server
